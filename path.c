@@ -6,7 +6,7 @@
 /*   By: aldiaz-u <aldiaz-u@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 17:53:16 by aldiaz-u          #+#    #+#             */
-/*   Updated: 2025/06/17 20:23:36 by aldiaz-u         ###   ########.fr       */
+/*   Updated: 2025/06/19 11:42:18 by aldiaz-u         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static char	*find_command(char **path, char *command)
 		free(full_path);
 		j++;
 	}
-	return (NULL);
+	return (ft_strdup(""));
 }
 
 char	*get_path(char *command, t_pipex *px)
